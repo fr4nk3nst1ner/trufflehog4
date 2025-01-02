@@ -1,6 +1,6 @@
 # Trufflehog4
 
-A comprehensive scanning tool that integrates with TruffleHog to detect secrets across multiple platforms including GitHub repositories, Docker containers, GitHub Container Registry (GHCR), and Postman workspaces.
+Integrates with TruffleHog to detect secrets across multiple platforms including GitHub repositories, Docker containers, GitHub Container Registry (GHCR), and Postman workspaces. Scans in mass rather than one particular target at a time. 
 
 ## Overview
 
