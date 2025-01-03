@@ -60,8 +60,8 @@ This tool extends TruffleHog's capabilities by providing:
 
 3. Clone this repository:
    ```bash
-   git clone <repository-url>
-   cd trufflehog-wrapper
+   git clone https://github.com/fr4nk3nst1ner/trufflehog4.git
+   cd trufflehog4
    ```
 
 ## Usage
@@ -131,12 +131,8 @@ go run trufflehog4.go github --user-list users.txt --trufflehog
 - Store tokens securely and never commit them to version control
 - Use appropriate access tokens with minimal required permissions
 - Be mindful of rate limits when scanning large organizations
-- Consider using `--verify` for more accurate results
-- Clean up downloaded images after scanning using `--retain-image=false`
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
+- Consider using `--verify` for more accurate results but careful as it can trigger alers
+- Clean up downloaded images after scanning, default uses `--retain-image=false`
 
 ## License
 
